@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif ;
+    outline: 0px;
+  
+}
+body{
+    background-image: linear-gradient(to right ,white,rgba(4, 116, 116, 0.658) );
+}
+header{
+    width: 100% ;
+    height: 100px ;
+    background-color: teal ;
+    text-align: center;
+}
+#spntop{
+    width: 30%;
+    height: 100%;
+    float: right;
+    background-color: rgba(151, 150, 150, 0.815);
+  
+
+}
+#h1top{
+    float: left;
+    line-height: 100px;
+    cursor: pointer;
+    padding: 0px 20px;
+    font-family: 'Raleway', sans-serif ;
+}
+#logotop{
+    height: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+  
+
+}
+nav{
+    width: 70%;
+  
+
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    font-family: 'Raleway', sans-serif ;
+   
+}
+nav li {
+    display: inline-block;
+    line-height: 100px;
+    width:150px;
+    text-align: center;
+    background-color: teal;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    
+}
+nav a:hover {
+      background-color: white;
+      color: #111;
+      width: 100%;
+      height: 100%;
+}
+main{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    
+}
+
+form {
+    border: 7px solid teal;
+    border-radius: 30px;
+    text-align: center;
+    
+    
+  }
+input{
+    width: 50%;
+    height: 35px;
+    border-radius: 25px;
+    
+    
+    
+}
+#rejstrs{
+    margin-top: 30px;
+}
+#pipi{
+    width: 50%;
+    height: 35px;
+    border-radius: 25px;
+}
+button{
+    width: 50%;
+    height: 35px;
+    border-radius: 25px;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    color: white;
+    background-color: teal;
+    font-size: 25px;
+    cursor: pointer;
+}
+#bibi{
+    border-radius: 50%;
+    margin: 10px;
+}
+#didi{
+    color: teal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:1154px){
+    #spntop{
+        width: 35%;
+      
+    }
+    input , #pipi{
+           width: 55%; 
+    }
+}
+@media only screen and (max-width:1154px){
+    #spntop{
+        width: 40%;
+    }
+    input , #pipi{
+        width: 60%; 
+ }
+}
+@media only screen and (max-width:870px){
+    header{
+        height: auto;
+    }
+    #spntop{
+        width:100%;
+    }
+    #h1top{
+        float: none;
+    }
+    nav{
+        width: 100%;
+    }
+    nav li {
+        width: 100%;
+        display: block;
+      
+    }
+    input , #pipi , main{
+        width: 100%; 
+ }
+
+}

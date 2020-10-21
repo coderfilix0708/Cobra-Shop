@@ -1,0 +1,264 @@
+
+*{
+    margin: 0 ;
+    padding: 0 ;
+}
+header{
+    width: 100% ;
+    height: 100px ;
+    background-color: teal ;
+    text-align: center;
+}
+#spntop{
+    width: 30%;
+    height: 100%;
+    float: right;
+    background-color: rgba(151, 150, 150, 0.815);
+  
+
+}
+#h1top{
+    float: left;
+    line-height: 100px;
+    cursor: pointer;
+    padding: 0px 20px;
+    font-family: 'Raleway', sans-serif ;
+}
+#logotop{
+    height: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+  
+
+}
+nav{
+    width: 70%;
+
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    font-family: 'Raleway', sans-serif ;
+}
+nav li {
+    display: inline-block;
+    line-height: 100px;
+    width:150px;
+    text-align: center;
+    background-color: teal;
+    font-weight: bold;
+    font-size: 20px;
+}
+nav a:hover {
+      background-color: white;
+      color: #111;
+      width: 100%;
+      height: 100%;
+}
+main{
+    width: 100%;
+    height: 500px;
+    background-color: teal;
+    border-top: 5px solid white;
+    float: right;
+    animation-name:ChangeBackground ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+aside {
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    text-align: center;
+    float: left;
+}
+aside img{
+    width: 75%;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+#asidediv{
+    width:80%;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+    border-radius: 20px;
+    text-align: center;
+}
+#h1cntus{
+    font-size: 30px;
+    width: 80%;
+    letter-spacing: 5px;
+    border-bottom: 3px solid red;
+   margin-left:40px ;
+   margin-bottom:20px;
+   margin-top: 15px;
+   padding-bottom: 10px;
+    font-family: 'Raleway', sans-serif ;
+     
+    }
+#asidediv img{
+    width:55px;
+    
+
+}
+#imgzbi{
+   width: 50%; 
+
+}
+#asidediv img:hover{
+    width: 65px;
+    
+
+}
+
+#art1main{
+    width:70% ;
+    height: 500px;
+    float: left;
+    position: relative;
+    border-radius: 15px;
+    margin-bottom: 100px;
+}
+
+
+#divid{
+    padding: 10px;
+    width: 80%;
+    height: 450px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    border-radius: 20px;
+}
+#h1div{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Raleway', sans-serif ;
+    border-bottom: 3px solid red;
+    
+}
+div p{
+    padding: 20px;
+  transform: translate(0%,20px);
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif ;
+}
+div img{
+    width: 30%;
+    float: right;
+    padding-right:33px ;
+    padding-top:20px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes ChangeBackground{
+    0%{
+        background-color: rgb(3, 161, 161);
+
+    }
+    50%{
+        background-color: rgb(6, 88, 88);
+    }
+    100%{
+        background-color: rgba(16, 165, 165, 0);
+    }
+}
+
+@media only screen and (min-width:1000px) and (max-width:1170px){
+    #spntop{
+        width: 35%;
+    }
+    #art1main{
+        width: 65%;
+    }
+    aside{
+        width: 35%;
+    }
+}
+@media only screen and (max-width:1056px){
+    #art1main{
+        width: 60%;
+        font-size: 10px;
+    }
+    aside{
+        width: 40%;
+    }
+}
+@media only screen and (max-width:1000px){
+    #spntop{
+        width: 40%;
+    }
+    #art1main{
+        width: 60%;
+        font-size: 10px;
+    }
+    aside{
+        width: 40%;
+    }
+}
+@media only screen and (max-width:870px){
+    header{
+        height: auto;
+    }
+    #spntop{
+        width: 100%;
+    }   
+    #art1main{
+        width: 90%;
+        font-size: 10px;
+
+    
+    }
+
+    aside{
+        width: 100%;
+        margin-bottom: 100px;
+
+    
+      
+    }
+
+}
+@media only screen and (max-width:672px){
+    
+    aside{
+        width: 100%;
+       
+    }
+    #art1main{
+        width: 100%;
+    
+        
+    }
+    nav{
+        width: 100%;
+      
+    }
+    #h1top{
+        float: none;
+    }
+    #spntop{
+        text-align: center;
+    }
+
+
+}
